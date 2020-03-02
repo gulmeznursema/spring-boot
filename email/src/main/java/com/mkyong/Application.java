@@ -25,6 +25,7 @@ public class Application implements CommandLineRunner {
     }
 
     @Override
+//dont override it!
     public void run(String... args) {
 
         System.out.println("Sending Email...");
